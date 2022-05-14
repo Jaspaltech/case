@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.3.12',
-        'version' => '9.3.12.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '68a1f3fca220f5a126ea50d7eeccfb75216e9cd9',
+        'reference' => '794f0c174a5f810687ed36507539c46bd2584851',
         'name' => 'drupal/legacy-project',
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'asm89/stack-cors' => array(
@@ -69,6 +69,15 @@
             'replaced' => array(
                 0 => '9.3.12',
             ),
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'reference' => '3.1.0',
+            'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
             'dev_requirement' => false,
@@ -530,12 +539,12 @@
             ),
         ),
         'drupal/legacy-project' => array(
-            'pretty_version' => '9.3.12',
-            'version' => '9.3.12.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '68a1f3fca220f5a126ea50d7eeccfb75216e9cd9',
+            'reference' => '794f0c174a5f810687ed36507539c46bd2584851',
             'dev_requirement' => false,
         ),
         'drupal/link' => array(
